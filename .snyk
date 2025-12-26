@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - testem > express > debug:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:debug:20170905'
+        path: testem > express > debug
+    - testem > express > finalhandler > debug:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:debug:20170905'
+        path: testem > express > finalhandler > debug
+    - testem > express > send > debug:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:debug:20170905'
+        path: testem > express > send > debug
+    - testem > express > serve-static > send > debug:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:debug:20170905'
+        path: testem > express > serve-static > send > debug
+  'npm:mime:20170907':
+    - testem > express > send > mime:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:mime:20170907'
+        path: testem > express > send > mime
+    - testem > express > serve-static > send > mime:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:mime:20170907'
+        path: testem > express > serve-static > send > mime
+  'npm:ms:20170412':
+    - testem > express > debug > ms:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:ms:20170412'
+        path: testem > express > debug > ms
+    - testem > express > send > ms:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:ms:20170412'
+        path: testem > express > send > ms
+    - testem > express > finalhandler > debug > ms:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:ms:20170412'
+        path: testem > express > finalhandler > debug > ms
+    - testem > express > send > debug > ms:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:ms:20170412'
+        path: testem > express > send > debug > ms
+    - testem > express > serve-static > send > ms:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:ms:20170412'
+        path: testem > express > serve-static > send > ms
+    - testem > express > serve-static > send > debug > ms:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:ms:20170412'
+        path: testem > express > serve-static > send > debug > ms
+  'npm:negotiator:20160616':
+    - testem > express > accepts > negotiator:
+        patched: '2025-06-05T09:39:09.448Z'
+        id: 'npm:negotiator:20160616'
+        path: testem > express > accepts > negotiator
